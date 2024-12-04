@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Umbrella Corporation</title>
+</head>
+<body>
+    <h1>Наши продукты:</h1>
+    <ul>
+        {% for item in items %}
+            <li>{{ item.name }} <button>Купить</button></li>
+        {% endfor %}
+    </ul>
+    <button>
+        <a href="{% url 'first_page' %}">Вернуться на главную</a>
+    </button>
+</body>
+</html>
