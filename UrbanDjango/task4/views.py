@@ -16,6 +16,3 @@ def shop(request):
 def basket(request):
     return render(request, 'basket.html')
 
-
-# def base(request):
-#     return render(request, 'menu.html')
