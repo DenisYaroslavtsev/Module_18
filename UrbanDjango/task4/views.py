@@ -15,4 +15,3 @@ def shop(request):
 
 def basket(request):
     return render(request, 'basket.html')
-
