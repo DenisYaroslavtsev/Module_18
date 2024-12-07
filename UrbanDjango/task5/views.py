@@ -56,8 +56,4 @@ def sign_up_by_html(request):
             elif int(age) < 18:
                 info['error'] = 'Вы должны быть старше 18'
 
-            print(f'username {username}')
-            print(f'password {password}')
-            print(f're password {repeat_password}')
-            print(f'age {age}')
     return render(request, 'registration_page.html', context)
