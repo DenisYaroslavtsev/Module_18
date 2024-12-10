@@ -60,8 +60,10 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [BASE_DIR /
                  'templates/second_task',
-                 'templates/fourth_task',
-                 'templates/fifth_task'],
+                 # 'templates/fourth_task',
+                 'templates/fifth_task',
+                 'templates/third_task'
+                 ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

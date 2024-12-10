@@ -17,7 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from task2.views import func_info, ClassTemplate
-from task4.views import func, shop, basket
+from task3.views import func, shop, basket
+# from task4.views import func, shop, basket
 from task5.views import sign_up_by_django, sign_up_by_html
 
 urlpatterns = [
